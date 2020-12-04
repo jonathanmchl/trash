@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Medicine"
+            android:title="Medicine"
+            android:icon="@drawable/ic_obat"/>
+        <item
+            android:id="@+id/Health_News"
+            android:title="Health News"
+            android:icon="@drawable/ic_news"/>
+        <item
+            android:id="@+id/Reminder"
+            android:title="Reminder"
+            android:icon="@drawable/ic_reminder"/>
+        <item
+            android:id="@+id/Disease"
+            android:title="Disease"
+            android:icon="@drawable/ic_disease"/>
+
+    </group>
+
+    <item android:title="Keluar">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_about"
+                android:title="About" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
